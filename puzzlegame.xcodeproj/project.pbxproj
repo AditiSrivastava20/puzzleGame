@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02AB9BE23D362EEED76AF477 /* Pods_puzzlegameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E131E145C183C539F32C18E6 /* Pods_puzzlegameTests.framework */; };
+		1D7872CC1E7BF39E00DDD74B /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7872CB1E7BF39E00DDD74B /* newViewController.swift */; };
 		1DD5684E1E7A5A1200F47AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5684D1E7A5A1200F47AB5 /* AppDelegate.swift */; };
 		1DD568501E7A5A1200F47AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5684F1E7A5A1200F47AB5 /* ViewController.swift */; };
 		1DD568531E7A5A1200F47AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD568511E7A5A1200F47AB5 /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		1DD568581E7A5A1200F47AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD568561E7A5A1200F47AB5 /* LaunchScreen.storyboard */; };
 		1DD568631E7A5A1200F47AB5 /* puzzlegameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD568621E7A5A1200F47AB5 /* puzzlegameTests.swift */; };
 		1DD5686E1E7A5A1200F47AB5 /* puzzlegameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5686D1E7A5A1200F47AB5 /* puzzlegameUITests.swift */; };
+		1DD5687D1E7A6C4B00F47AB5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5687B1E7A6C4B00F47AB5 /* ViewController2.swift */; };
+		1DD5687E1E7A6C4B00F47AB5 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5687C1E7A6C4B00F47AB5 /* ViewController2.xib */; };
+		1DE698671E7E53D1005E9268 /* DataIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE698661E7E53D1005E9268 /* DataIdentifier.swift */; };
+		42196D6DB6392E3BFA47AE4E /* Pods_puzzlegame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC8986F428BA8392CCDCBE7 /* Pods_puzzlegame.framework */; };
+		80C6DDCB0C9CF28D1D56E172 /* Pods_puzzlegameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE78DEDAC1E6C61EBBC01E /* Pods_puzzlegameUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04832833AF38CD1D891503C6 /* Pods-puzzlegameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-puzzlegameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-puzzlegameTests/Pods-puzzlegameTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D7872CB1E7BF39E00DDD74B /* newViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 		1DD5684A1E7A5A1200F47AB5 /* puzzlegame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puzzlegame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD5684D1E7A5A1200F47AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DD5684F1E7A5A1200F47AB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		1DD568691E7A5A1200F47AB5 /* puzzlegameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = puzzlegameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD5686D1E7A5A1200F47AB5 /* puzzlegameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzlegameUITests.swift; sourceTree = "<group>"; };
 		1DD5686F1E7A5A1200F47AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD5687B1E7A6C4B00F47AB5 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		1DD5687C1E7A6C4B00F47AB5 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		1DE698661E7E53D1005E9268 /* DataIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataIdentifier.swift; sourceTree = "<group>"; };
+		557EFB72BDCA96B842B8BC16 /* Pods-puzzlegameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-puzzlegameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-puzzlegameUITests/Pods-puzzlegameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72CE78DEDAC1E6C61EBBC01E /* Pods_puzzlegameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_puzzlegameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FB392969A1EF0BDF4AB068 /* Pods-puzzlegame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-puzzlegame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-puzzlegame/Pods-puzzlegame.debug.xcconfig"; sourceTree = "<group>"; };
+		D4F6CDE9B5C3967BEF03E6B0 /* Pods-puzzlegameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-puzzlegameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-puzzlegameTests/Pods-puzzlegameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E131E145C183C539F32C18E6 /* Pods_puzzlegameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_puzzlegameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCDDCC7C4F9E25C045CD175 /* Pods-puzzlegameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-puzzlegameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-puzzlegameUITests/Pods-puzzlegameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFC8986F428BA8392CCDCBE7 /* Pods_puzzlegame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_puzzlegame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE780FA14E8F5218C3617D9C /* Pods-puzzlegame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-puzzlegame.release.xcconfig"; path = "Pods/Target Support Files/Pods-puzzlegame/Pods-puzzlegame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42196D6DB6392E3BFA47AE4E /* Pods_puzzlegame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02AB9BE23D362EEED76AF477 /* Pods_puzzlegameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C6DDCB0C9CF28D1D56E172 /* Pods_puzzlegameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				1DD568611E7A5A1200F47AB5 /* puzzlegameTests */,
 				1DD5686C1E7A5A1200F47AB5 /* puzzlegameUITests */,
 				1DD5684B1E7A5A1200F47AB5 /* Products */,
+				3529888139E9B1B01EC9224F /* Pods */,
+				B3256B43EA1B0A4D69C231CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +128,10 @@
 				1DD568541E7A5A1200F47AB5 /* Assets.xcassets */,
 				1DD568561E7A5A1200F47AB5 /* LaunchScreen.storyboard */,
 				1DD568591E7A5A1200F47AB5 /* Info.plist */,
+				1DD5687B1E7A6C4B00F47AB5 /* ViewController2.swift */,
+				1DD5687C1E7A6C4B00F47AB5 /* ViewController2.xib */,
+				1D7872CB1E7BF39E00DDD74B /* newViewController.swift */,
+				1DE698661E7E53D1005E9268 /* DataIdentifier.swift */,
 			);
 			path = puzzlegame;
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = puzzlegameUITests;
 			sourceTree = "<group>";
 		};
+		3529888139E9B1B01EC9224F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97FB392969A1EF0BDF4AB068 /* Pods-puzzlegame.debug.xcconfig */,
+				FE780FA14E8F5218C3617D9C /* Pods-puzzlegame.release.xcconfig */,
+				D4F6CDE9B5C3967BEF03E6B0 /* Pods-puzzlegameTests.debug.xcconfig */,
+				04832833AF38CD1D891503C6 /* Pods-puzzlegameTests.release.xcconfig */,
+				557EFB72BDCA96B842B8BC16 /* Pods-puzzlegameUITests.debug.xcconfig */,
+				ECCDDCC7C4F9E25C045CD175 /* Pods-puzzlegameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3256B43EA1B0A4D69C231CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8986F428BA8392CCDCBE7 /* Pods_puzzlegame.framework */,
+				E131E145C183C539F32C18E6 /* Pods_puzzlegameTests.framework */,
+				72CE78DEDAC1E6C61EBBC01E /* Pods_puzzlegameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD568721E7A5A1200F47AB5 /* Build configuration list for PBXNativeTarget "puzzlegame" */;
 			buildPhases = (
+				0A1B984AEFD4553431535DFB /* [CP] Check Pods Manifest.lock */,
 				1DD568461E7A5A1200F47AB5 /* Sources */,
 				1DD568471E7A5A1200F47AB5 /* Frameworks */,
 				1DD568481E7A5A1200F47AB5 /* Resources */,
+				F245833894D86CD1DB4C739A /* [CP] Embed Pods Frameworks */,
+				EB527C0231DD373EEF0C2209 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD568751E7A5A1200F47AB5 /* Build configuration list for PBXNativeTarget "puzzlegameTests" */;
 			buildPhases = (
+				E407BA368EEB938DFCA3DB9C /* [CP] Check Pods Manifest.lock */,
 				1DD5685A1E7A5A1200F47AB5 /* Sources */,
 				1DD5685B1E7A5A1200F47AB5 /* Frameworks */,
 				1DD5685C1E7A5A1200F47AB5 /* Resources */,
+				19741BD18A80665C16D02D92 /* [CP] Embed Pods Frameworks */,
+				B7D81E0CEC8B46295EFC8493 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD568781E7A5A1200F47AB5 /* Build configuration list for PBXNativeTarget "puzzlegameUITests" */;
 			buildPhases = (
+				D6827A4DAD961A5D982D7B53 /* [CP] Check Pods Manifest.lock */,
 				1DD568651E7A5A1200F47AB5 /* Sources */,
 				1DD568661E7A5A1200F47AB5 /* Frameworks */,
 				1DD568671E7A5A1200F47AB5 /* Resources */,
+				CA0B9A20245C9BC7774046E5 /* [CP] Embed Pods Frameworks */,
+				96919D86755A56EF38A01F63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD568581E7A5A1200F47AB5 /* LaunchScreen.storyboard in Resources */,
+				1DD5687E1E7A6C4B00F47AB5 /* ViewController2.xib in Resources */,
 				1DD568551E7A5A1200F47AB5 /* Assets.xcassets in Resources */,
 				1DD568531E7A5A1200F47AB5 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +316,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A1B984AEFD4553431535DFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19741BD18A80665C16D02D92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-puzzlegameTests/Pods-puzzlegameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96919D86755A56EF38A01F63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-puzzlegameUITests/Pods-puzzlegameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D81E0CEC8B46295EFC8493 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-puzzlegameTests/Pods-puzzlegameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0B9A20245C9BC7774046E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-puzzlegameUITests/Pods-puzzlegameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6827A4DAD961A5D982D7B53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E407BA368EEB938DFCA3DB9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB527C0231DD373EEF0C2209 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-puzzlegame/Pods-puzzlegame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F245833894D86CD1DB4C739A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-puzzlegame/Pods-puzzlegame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DD568461E7A5A1200F47AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1DD568501E7A5A1200F47AB5 /* ViewController.swift in Sources */,
+				1DE698671E7E53D1005E9268 /* DataIdentifier.swift in Sources */,
 				1DD5684E1E7A5A1200F47AB5 /* AppDelegate.swift in Sources */,
+				1DD5687D1E7A6C4B00F47AB5 /* ViewController2.swift in Sources */,
+				1D7872CC1E7BF39E00DDD74B /* newViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,30 +613,37 @@
 		};
 		1DD568731E7A5A1200F47AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97FB392969A1EF0BDF4AB068 /* Pods-puzzlegame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = puzzlegame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.puzzlegame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1DD568741E7A5A1200F47AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE780FA14E8F5218C3617D9C /* Pods-puzzlegame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = puzzlegame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.puzzlegame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1DD568761E7A5A1200F47AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F6CDE9B5C3967BEF03E6B0 /* Pods-puzzlegameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +658,7 @@
 		};
 		1DD568771E7A5A1200F47AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04832833AF38CD1D891503C6 /* Pods-puzzlegameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +673,7 @@
 		};
 		1DD568791E7A5A1200F47AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557EFB72BDCA96B842B8BC16 /* Pods-puzzlegameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = puzzlegameUITests/Info.plist;
@@ -475,6 +687,7 @@
 		};
 		1DD5687A1E7A5A1200F47AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCDDCC7C4F9E25C045CD175 /* Pods-puzzlegameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = puzzlegameUITests/Info.plist;
@@ -505,6 +718,7 @@
 				1DD568741E7A5A1200F47AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DD568751E7A5A1200F47AB5 /* Build configuration list for PBXNativeTarget "puzzlegameTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +727,7 @@
 				1DD568771E7A5A1200F47AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DD568781E7A5A1200F47AB5 /* Build configuration list for PBXNativeTarget "puzzlegameUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +736,7 @@
 				1DD5687A1E7A5A1200F47AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
