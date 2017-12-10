@@ -117,6 +117,7 @@ class newViewController: UIViewController {
         let translation = pan.translation(in: self.view)
         
         let img = pan.view as! UIImageView
+        self.view.bringSubview(toFront: img)
         if img.image != nil {
             img.center = CGPoint(x:img.center.x + translation.x,
                                  y:img.center.y + translation.y)

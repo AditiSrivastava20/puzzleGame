@@ -16,7 +16,7 @@ enum DataIdentifier: String {
 
 enum infos : String{
     case tryagain = "TRY AGAIN!!!"
-    case gameover = "OOPS!..Game Over!!"
+    case gameover = "Game Over!!"
     case ok = "Okay"
     case won = "you won ✌🏻"
     case lost = "you lost 🤕"
